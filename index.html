@@ -13,21 +13,16 @@
       gtag('js', new Date());
       gtag('config', 'G-HK1BRD3C8P');
     </script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script>
         let map;
-        const cpLocation = [2.117754, -72.484184]
+        let marker;
 
         // Initialize the map
         function initMap() {
-            map = L.map('map', { attributionControl: false }).setView(cpLocation, 7);
-            // OpenStreetMaps
-            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-            // Carto Positron (Light theme)
-            // L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png').addTo(map);
-            // Carto Dark Matter (Dark theme)
-            // L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
+            map = L.map('map').setView([2.117754, -72.484184], 7);
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png').addTo(map);
         }
 
         // Wait for the DOM to fully load before attaching event listener
@@ -42,7 +37,7 @@
 
         // Load the DB from JSON export
         async function loadDB() {
-            const response = await fetch('data/language_features.json');
+            const response = await fetch('data/languages_features.json');
             const db = await response.json();
             return db;
         }
@@ -55,8 +50,9 @@
                 const today = new Date();
                 const cutoffDate = new Date("2025-03-10");
                 const nosiaCoords = today < cutoffDate
-                    ? [50.0620, 19.9381]
-                    : [49.4167, 20.95549];
+                    ? [50.0647, 19.9450]
+                    : [49.4245, 20.9570];
+
 
                 // Remove previous pins
                 map.eachLayer(layer => {
@@ -67,7 +63,7 @@
 
                 L.popup()
                  .setLatLng(nosiaCoords)
-                 .setContent(`<strong>🐶 Nosia</strong>&nbsp;&nbsp;<br>`)
+                 .setContent(`<strong>🐕 Nosia</strong>&nbsp;&nbsp;<br>`)
                  .openOn(map);
 
                 // Center the map on Kraków
@@ -76,35 +72,20 @@
             }
         }
 
-        function clearAllPins() {
-            // Remove any previous pins
-            map.eachLayer(layer => {
-                if (layer instanceof L.Marker) {
-                    map.removeLayer(layer);
-                }
-            });
-            // Close any open popups (EE)
-            map.closePopup();
-        }
-
         // Fetch language details and place a pin on the map
         async function placePins() {
             const featureName = document.getElementById('feature').value;
             const messageDiv = document.getElementById("message");
 
-            // EE
-            if(ee(featureName)) {
+            if(ee(featureName)) {  // EE
                 return;
             }
-
-            // Recenter
-            map.setView(cpLocation, 7);
             const db = await loadDB();
 
             // Filter by feature name and status
             const filtered = db.filter(entry => entry.feature.toLowerCase() === featureName.toLowerCase() && entry.status === 1);
             if (filtered.length > 0) {
-                messageDiv.style.visibility = "hidden";  // Hide message
+                messageDiv.style.visibility = "hidden";  // Hide the message
                 const languages = new Set();
                 const languageData = [];
                 filtered.forEach(entry => {
@@ -117,10 +98,16 @@
                     });
                 });
 
+                // Remove any previous pins
+                map.eachLayer(layer => {
+                    if (layer instanceof L.Marker) {
+                        map.removeLayer(layer);
+                    }
+                });
+
                 // Create a bounds object to fit the map to all the markers
                 const bounds = new L.LatLngBounds();
-                // Remove any previous pins
-                clearAllPins()
+
                 // Place a pin for each language
                 languageData.forEach(entry => {
                     const { latitude, longitude, legend, language, feature } = entry;
@@ -150,9 +137,8 @@
                 // fit the map to show all markers within the bounds
                 map.fitBounds(bounds, { padding: [20, 20] });
             } else {
-                clearAllPins()
-                messageDiv.textContent = "Feature not present.";
-                messageDiv.style.visibility = "visible";  // Show message
+                messageDiv.textContent = "Feature not found.";
+                messageDiv.style.visibility = "visible";  // Show the message
             }
         }
     </script>
