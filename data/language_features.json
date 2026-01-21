@@ -39,7 +39,7 @@
     "language": "andoke",
     "category": "Morphology/Compounding, auxiliaries, light verbs",
     "feature": "Auxiliary verb(s)",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -84,7 +84,7 @@
     "language": "andoke",
     "category": "Morphology/General",
     "feature": "Prefixing/suffixing inflectional morph: strongly suffixing",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -272,7 +272,7 @@
     "language": "andoke",
     "category": "Nominal Categories/Definiteness and clusivity",
     "feature": "Inclusive/exclusive: in verbal inflection (bound)",
-    "status": 1,
+    "status": 0,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -451,7 +451,7 @@
     "language": "andoke",
     "category": "Nominal Categories/Number",
     "feature": "Plural marked on human or animate nouns only",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -469,6 +469,7 @@
     "language": "andoke",
     "category": "Nominal Categories/Number",
     "feature": "Unique associative plural marker",
+    "status": 0,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -819,7 +820,7 @@
     "language": "andoke",
     "category": "Nominal Syntax/Alienability",
     "feature": "Default marker for inalienably possessed nouns if unpossessed",
-    "status": 1,
+    "status": 0,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -2025,7 +2026,7 @@
     "language": "andoke",
     "category": "Word Order",
     "feature": "Noun-Adj",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -2034,7 +2035,7 @@
     "language": "andoke",
     "category": "Word Order",
     "feature": "Dem-Noun",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -2070,7 +2071,7 @@
     "language": "andoke",
     "category": "Word Order",
     "feature": "Noun-Rel",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -2087,8 +2088,8 @@
   {
     "language": "andoke",
     "category": "Word Order",
-    "feature": "Re<Noun>l (internally headed relative)",
-    "status": 0,
+    "feature": "Internally headed relative",
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -2097,7 +2098,7 @@
     "language": "andoke",
     "category": "Word Order",
     "feature": "Relative clause is correlative or adjoined",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -2473,7 +2474,7 @@
     "language": "bora",
     "category": "Nominal Categories/Gender and noun classification",
     "feature": "Shape is a relevant category in the noun class(ification) system for animates",
-    "status": 1,
+    "status": 0,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -2518,7 +2519,7 @@
     "language": "bora",
     "category": "Nominal Categories/Number",
     "feature": "Singular number may be marked on the noun",
-    "status": 1,
+    "status": 0,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -2923,7 +2924,7 @@
     "language": "bora",
     "category": "Nominal Syntax/Alienability",
     "feature": "Morphological marking of alienable possession",
-    "status": 1,
+    "status": 0,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -2950,7 +2951,7 @@
     "language": "bora",
     "category": "Nominal Syntax/Alienability",
     "feature": "Inalienable possession of body parts (human/animal)",
-    "status": 1,
+    "status": 0,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -4138,7 +4139,7 @@
     "language": "bora",
     "category": "Word Order",
     "feature": "Adj-Noun",
-    "status": 0,
+    "status": 1,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -4156,7 +4157,7 @@
     "language": "bora",
     "category": "Word Order",
     "feature": "Dem-Noun",
-    "status": 0,
+    "status": 1,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -4165,15 +4166,6 @@
     "language": "bora",
     "category": "Word Order",
     "feature": "Noun-Dem",
-    "status": 1,
-    "latitude": -1.36,
-    "longitude": -71.87,
-    "legend": "#A5D6A7"
-  },
-  {
-    "language": "bora",
-    "category": "Word Order",
-    "feature": "Num-Noun",
     "status": 0,
     "latitude": -1.36,
     "longitude": -71.87,
@@ -4182,8 +4174,17 @@
   {
     "language": "bora",
     "category": "Word Order",
-    "feature": "Noun-Num",
+    "feature": "Num-Noun",
     "status": 1,
+    "latitude": -1.36,
+    "longitude": -71.87,
+    "legend": "#A5D6A7"
+  },
+  {
+    "language": "bora",
+    "category": "Word Order",
+    "feature": "Noun-Num",
+    "status": 0,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -4209,7 +4210,7 @@
   {
     "language": "bora",
     "category": "Word Order",
-    "feature": "Re<Noun>l (internally headed relative)",
+    "feature": "Internally headed relative",
     "status": 1,
     "latitude": -1.36,
     "longitude": -71.87,
@@ -4219,7 +4220,7 @@
     "language": "bora",
     "category": "Word Order",
     "feature": "Relative clause is correlative or adjoined",
-    "status": 0,
+    "status": 1,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -4595,7 +4596,7 @@
     "language": "muinane",
     "category": "Nominal Categories/Gender and noun classification",
     "feature": "Shape is a relevant category in the noun class(ification) system for animates",
-    "status": 1,
+    "status": 0,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -4640,7 +4641,7 @@
     "language": "muinane",
     "category": "Nominal Categories/Number",
     "feature": "Singular number may be marked on the noun",
-    "status": 1,
+    "status": 0,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -5045,7 +5046,7 @@
     "language": "muinane",
     "category": "Nominal Syntax/Alienability",
     "feature": "Morphological marking of alienable possession",
-    "status": 1,
+    "status": 0,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -5063,7 +5064,7 @@
     "language": "muinane",
     "category": "Nominal Syntax/Alienability",
     "feature": "Inalienable possession of kin terms",
-    "status": 0,
+    "status": 1,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -6260,7 +6261,7 @@
     "language": "muinane",
     "category": "Word Order",
     "feature": "Adj-Noun",
-    "status": 0,
+    "status": 1,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -6269,7 +6270,7 @@
     "language": "muinane",
     "category": "Word Order",
     "feature": "Noun-Adj",
-    "status": 1,
+    "status": 0,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -6278,7 +6279,7 @@
     "language": "muinane",
     "category": "Word Order",
     "feature": "Dem-Noun",
-    "status": 0,
+    "status": 1,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -6287,15 +6288,6 @@
     "language": "muinane",
     "category": "Word Order",
     "feature": "Noun-Dem",
-    "status": 1,
-    "latitude": -0.8,
-    "longitude": -72.04,
-    "legend": "#4CAF50"
-  },
-  {
-    "language": "muinane",
-    "category": "Word Order",
-    "feature": "Num-Noun",
     "status": 0,
     "latitude": -0.8,
     "longitude": -72.04,
@@ -6304,8 +6296,17 @@
   {
     "language": "muinane",
     "category": "Word Order",
-    "feature": "Noun-Num",
+    "feature": "Num-Noun",
     "status": 1,
+    "latitude": -0.8,
+    "longitude": -72.04,
+    "legend": "#4CAF50"
+  },
+  {
+    "language": "muinane",
+    "category": "Word Order",
+    "feature": "Noun-Num",
+    "status": 0,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -6331,7 +6332,7 @@
   {
     "language": "muinane",
     "category": "Word Order",
-    "feature": "Re<Noun>l (internally headed relative)",
+    "feature": "Internally headed relative",
     "status": 1,
     "latitude": -0.8,
     "longitude": -72.04,
@@ -6341,7 +6342,7 @@
     "language": "muinane",
     "category": "Word Order",
     "feature": "Relative clause is correlative or adjoined",
-    "status": 0,
+    "status": 1,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -6699,7 +6700,7 @@
     "language": "murui-muina",
     "category": "Nominal Categories/Gender and noun classification",
     "feature": "Animacy (w/o reference to sex) is a relevant category in the noun class(ification) system",
-    "status": 0,
+    "status": 1,
     "latitude": -1.34,
     "longitude": -73.04,
     "legend": "#CF4C34"
@@ -7095,7 +7096,7 @@
     "language": "murui-muina",
     "category": "Nominal Syntax/Derivation",
     "feature": "Productive verbalizing morphology",
-    "status": 0,
+    "status": 1,
     "latitude": -1.34,
     "longitude": -73.04,
     "legend": "#CF4C34"
@@ -8453,7 +8454,7 @@
   {
     "language": "murui-muina",
     "category": "Word Order",
-    "feature": "Re<Noun>l (internally headed relative)",
+    "feature": "Internally headed relative",
     "status": 1,
     "latitude": -1.34,
     "longitude": -73.04,
@@ -8821,7 +8822,7 @@
     "language": "nonuya",
     "category": "Nominal Categories/Gender and noun classification",
     "feature": "Animacy (w/o reference to sex) is a relevant category in the noun class(ification) system",
-    "status": 0,
+    "status": 1,
     "latitude": -1.09,
     "longitude": -72.19,
     "legend": "#FF8A65"
@@ -8902,7 +8903,7 @@
     "language": "nonuya",
     "category": "Nominal Categories/Number",
     "feature": "Plural marked by stem change or tone on noun",
-    "status": 0,
+    "status": 1,
     "latitude": -1.09,
     "longitude": -72.19,
     "legend": "#FF8A65"
@@ -9217,7 +9218,7 @@
     "language": "nonuya",
     "category": "Nominal Syntax/Derivation",
     "feature": "Productive verbalizing morphology",
-    "status": 0,
+    "status": 1,
     "latitude": -1.09,
     "longitude": -72.19,
     "legend": "#FF8A65"
@@ -9298,6 +9299,7 @@
     "language": "nonuya",
     "category": "Nominal Syntax/Alienability",
     "feature": "Default marker for inalienably possessed nouns if unpossessed",
+    "status": 0,
     "latitude": -1.09,
     "longitude": -72.19,
     "legend": "#FF8A65"
@@ -10574,7 +10576,7 @@
   {
     "language": "nonuya",
     "category": "Word Order",
-    "feature": "Re<Noun>l (internally headed relative)",
+    "feature": "Internally headed relative",
     "status": 1,
     "latitude": -1.09,
     "longitude": -72.19,
@@ -10656,7 +10658,7 @@
     "language": "okaina",
     "category": "Morphology/General",
     "feature": "Inflection manifested by replacement of segmental or suprasegmental phonemes",
-    "status": 0,
+    "status": 1,
     "latitude": -0.94,
     "longitude": -72.32,
     "legend": "#3CB371"
@@ -10942,7 +10944,7 @@
     "language": "okaina",
     "category": "Nominal Categories/Gender and noun classification",
     "feature": "Animacy (w/o reference to sex) is a relevant category in the noun class(ification) system",
-    "status": 0,
+    "status": 1,
     "latitude": -0.94,
     "longitude": -72.32,
     "legend": "#3CB371"
@@ -11023,7 +11025,7 @@
     "language": "okaina",
     "category": "Nominal Categories/Number",
     "feature": "Plural marked by stem change or tone on noun",
-    "status": 0,
+    "status": 1,
     "latitude": -0.94,
     "longitude": -72.32,
     "legend": "#3CB371"
@@ -11338,7 +11340,7 @@
     "language": "okaina",
     "category": "Nominal Syntax/Derivation",
     "feature": "Productive verbalizing morphology",
-    "status": 0,
+    "status": 1,
     "latitude": -0.94,
     "longitude": -72.32,
     "legend": "#3CB371"
@@ -11419,6 +11421,7 @@
     "language": "okaina",
     "category": "Nominal Syntax/Alienability",
     "feature": "Default marker for inalienably possessed nouns if unpossessed",
+    "status": 0,
     "latitude": -0.94,
     "longitude": -72.32,
     "legend": "#3CB371"
@@ -12695,7 +12698,7 @@
   {
     "language": "okaina",
     "category": "Word Order",
-    "feature": "Re<Noun>l (internally headed relative)",
+    "feature": "Internally headed relative",
     "status": 1,
     "latitude": -0.94,
     "longitude": -72.32,
@@ -12777,6 +12780,7 @@
     "language": "resigaro",
     "category": "Morphology/General",
     "feature": "Inflection manifested by replacement of segmental or suprasegmental phonemes",
+    "status": 1,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
@@ -13071,7 +13075,7 @@
     "language": "resigaro",
     "category": "Nominal Categories/Gender and noun classification",
     "feature": "Sex/gender distinction only in 3rd person pronouns",
-    "status": 1,
+    "status": 0,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
@@ -13125,7 +13129,7 @@
     "language": "resigaro",
     "category": "Nominal Categories/Number",
     "feature": "Singular number may be marked on the noun",
-    "status": 1,
+    "status": 0,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
@@ -14814,7 +14818,7 @@
   {
     "language": "resigaro",
     "category": "Word Order",
-    "feature": "Re<Noun>l (internally headed relative)",
+    "feature": "Internally headed relative",
     "status": 0,
     "latitude": -0.9,
     "longitude": -72.13,
@@ -14824,7 +14828,7 @@
     "language": "resigaro",
     "category": "Word Order",
     "feature": "Relative clause is correlative or adjoined",
-    "status": 0,
+    "status": 1,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
