@@ -5911,7 +5911,7 @@
     "language": "bora",
     "category": "Nominal Syntax/Possession",
     "feature": "Possessive classifiers",
-    "status": 1,
+    "status": 0,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -10031,7 +10031,7 @@
     "language": "muinane",
     "category": "Nominal Syntax/Possession",
     "feature": "Possessive classifiers",
-    "status": 1,
+    "status": 0,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
