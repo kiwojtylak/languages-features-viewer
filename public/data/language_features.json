@@ -1288,7 +1288,7 @@
     "language": "andoke",
     "category": "Nominal Categories/Numerals",
     "feature": "Other base (specify)",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -1738,7 +1738,7 @@
     "language": "andoke",
     "category": "Nominal Syntax/Derivation",
     "feature": "Evaluative morphology restricted to nouns",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -5398,7 +5398,7 @@
     "language": "bora",
     "category": "Nominal Categories/Numerals",
     "feature": "Other base (specify)",
-    "status": 0,
+    "status": 1,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -5848,7 +5848,7 @@
     "language": "bora",
     "category": "Nominal Syntax/Derivation",
     "feature": "Evaluative morphology restricted to nouns",
-    "status": 0,
+    "status": 1,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -25981,7 +25981,7 @@
     "language": "resigaro",
     "category": "Nominal Categories/Numerals",
     "feature": "Base-10",
-    "status": 1,
+    "status": 0,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
@@ -25990,7 +25990,7 @@
     "language": "resigaro",
     "category": "Nominal Categories/Numerals",
     "feature": "Other base (specify)",
-    "status": 1,
+    "status": 0,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
@@ -26440,7 +26440,7 @@
     "language": "resigaro",
     "category": "Nominal Syntax/Derivation",
     "feature": "Evaluative morphology restricted to nouns",
-    "status": 0,
+    "status": 1,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
