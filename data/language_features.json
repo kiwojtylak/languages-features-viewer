@@ -6001,7 +6001,7 @@
     "language": "bora",
     "category": "Phonology/Segmental",
     "feature": "Glottalized/ejective consonants",
-    "status": 1,
+    "status": 0,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
