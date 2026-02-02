@@ -10121,7 +10121,7 @@
     "language": "muinane",
     "category": "Phonology/Segmental",
     "feature": "Glottalized/ejective consonants",
-    "status": 1,
+    "status": 0,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
