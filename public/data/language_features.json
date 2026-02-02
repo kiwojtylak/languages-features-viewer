@@ -1882,7 +1882,7 @@
     "language": "andoke",
     "category": "Phonology/Segmental",
     "feature": "Pre-/post-nasalized stops",
-    "status": 0,
+    "status": 1,
     "latitude": -0.7,
     "longitude": -72.66,
     "legend": "#9E9E9F"
@@ -26584,7 +26584,7 @@
     "language": "resigaro",
     "category": "Phonology/Segmental",
     "feature": "Pre-/post-nasalized stops",
-    "status": 0,
+    "status": 1,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
