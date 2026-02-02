@@ -18537,7 +18537,7 @@
     "language": "nonuya",
     "category": "Phonology/Suprasegmental",
     "feature": "Contrastive stress",
-    "status": 0,
+    "status": 1,
     "latitude": -1.09,
     "longitude": -72.19,
     "legend": "#FF8A65"
@@ -22653,7 +22653,7 @@
     "language": "okaina",
     "category": "Phonology/Suprasegmental",
     "feature": "Contrastive stress",
-    "status": 0,
+    "status": 1,
     "latitude": -0.94,
     "longitude": -72.32,
     "legend": "#3CB371"
