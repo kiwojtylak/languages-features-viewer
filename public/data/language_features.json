@@ -6046,7 +6046,7 @@
     "language": "bora",
     "category": "Phonology/Segmental",
     "feature": "No codas",
-    "status": 0,
+    "status": 1,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -10166,7 +10166,7 @@
     "language": "muinane",
     "category": "Phonology/Segmental",
     "feature": "No codas",
-    "status": 0,
+    "status": 1,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -26638,7 +26638,7 @@
     "language": "resigaro",
     "category": "Phonology/Segmental",
     "feature": "No codas",
-    "status": 0,
+    "status": 1,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
