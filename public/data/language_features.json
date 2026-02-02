@@ -10328,7 +10328,7 @@
     "language": "muinane",
     "category": "Phonology/Suprasegmental",
     "feature": "Vowel harmony",
-    "status": 0,
+    "status": 1,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -26800,6 +26800,7 @@
     "language": "resigaro",
     "category": "Phonology/Suprasegmental",
     "feature": "Vowel harmony",
+    "status": 0,
     "latitude": -0.9,
     "longitude": -72.13,
     "legend": "#8D6E63"
