@@ -5650,7 +5650,7 @@
     "language": "bora",
     "category": "Nominal Categories/Pronominal categories",
     "feature": "Reflexive pronouns",
-    "status": 0,
+    "status": 1,
     "latitude": -1.36,
     "longitude": -71.87,
     "legend": "#A5D6A7"
@@ -9770,7 +9770,7 @@
     "language": "muinane",
     "category": "Nominal Categories/Pronominal categories",
     "feature": "Reflexive pronouns",
-    "status": 0,
+    "status": 1,
     "latitude": -0.8,
     "longitude": -72.04,
     "legend": "#4CAF50"
@@ -13886,7 +13886,7 @@
     "language": "murui-muina",
     "category": "Nominal Categories/Pronominal categories",
     "feature": "Reflexive pronouns",
-    "status": 0,
+    "status": 1,
     "latitude": -1.34,
     "longitude": -73.04,
     "legend": "#CF4C34"
@@ -18006,7 +18006,7 @@
     "language": "nonuya",
     "category": "Nominal Categories/Pronominal categories",
     "feature": "Reflexive pronouns",
-    "status": 0,
+    "status": 1,
     "latitude": -1.09,
     "longitude": -72.19,
     "legend": "#FF8A65"
@@ -22122,7 +22122,7 @@
     "language": "okaina",
     "category": "Nominal Categories/Pronominal categories",
     "feature": "Reflexive pronouns",
-    "status": 0,
+    "status": 1,
     "latitude": -0.94,
     "longitude": -72.32,
     "legend": "#3CB371"
